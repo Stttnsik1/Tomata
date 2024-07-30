@@ -30,17 +30,23 @@ color: white;
 font-family: Arial;
 }
 .market {
-background-color:  #292929;
-box-shadow: none;
-border: 0;
-margin-top: 5px;
+background-color:  #444444;
+font-family: Arial;
+color: white;
+border: none;
 }
-.circle {
-    width: 16em;
-    height: 7em;
-    background-color: #292929;
-    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
-    overflow: hidden;
-    align-items: center;
-    margin-top: 20px;
+#footer {
+position: fixed; /* Фиксированное положение */
+padding: 10px; /* Поля вокруг текста */
+background: #444444; /* Цвет фона */
+color: #fff; /* Цвет текста */
+width: 100%; /* Ширина слоя */
+height: 7%;
+left: 0; bottom: 0; /* Левый нижний угол */
+}
+h4 {
+    font-family: Arial;
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
 }
