@@ -8,14 +8,14 @@
 <center><h3><span id="gems">0</span>💎</h3></center>
 
 <center><button class="tomat" id="myButton" onclick="earntomato()"><img src="https://i.postimg.cc/05Jd47rK/2687984-B-2-A93-4-D5-C-8-A0-F-ED2535041340.png" width="450px" height="450px"></button></center>
-
-<center><div class="circle">
-<form action="Market.html">
-<center><button class="market"><img class="tomatoimg" src="https://i.postimg.cc/bJ8Hn6vM/6232458.png" width="55px" height="55px"></button></center>
-</form>
-</div></center>
 </html>
 
+<div id="footer">
+<div>
+<form action="Market.html">
+<center><button class="market">🛒<br><h4>Market</h4></button></center>
+</div>
+</form>
 
 <script>
 let score = 0;
