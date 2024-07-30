@@ -5,12 +5,12 @@
 <link rel="stylesheet" href="stylem.css">
 </head>
 <center><strong><h1><span id="score">0</span></h1></strong></center>
-<h3><span id="gems">0</span></h3>
+<center><h3><span id="gems">0</span>💎</h3></center>
 <h1>Market</h1>
 
-<div class="container-buttons">
-<button class="sell" onclick="sell()"><img src="https://i.postimg.cc/TwSJNnqq/516-EBD4-F-CF9-B-4-A64-BA0-B-3-CA6-A3696-AC1.png" width="250px" height="250px" mar></button>
-<button class="buy" onclick="buy()"><img src="https://i.postimg.cc/fTdBFqP3/CEA7604-C-1-F32-4-C55-A1-DA-D7-D5-E313-B315.png" width="250px" height="250px"></button>
+<div class="roundcorner">
+<button class="sell" onclick="sell()"><img src="https://i.postimg.cc/SscDjk2b/9-D98-C69-E-7528-4714-9-D0-B-5-BB6546-B458-D.jpg" width="200px" height="100px"></button>
+<button class="buy" onclick="buy()"><img src="https://i.postimg.cc/Rh9GHyK6/4-CBC85-AC-0126-483-D-9061-F44-C44-C5748-E.jpg" width="200px" height="100px"></button>
 </div>
 
 <script>
@@ -82,7 +82,7 @@ function buy() {
   let amountToBuy = parseInt(prompt("Введите количество монет для покупки:"));
 
   // Validate the input
-  if (isNaN(amountToBuy) || amountToBuy <= 0 || amountToBuy > score) {
+  if (isNaN(amountToBuy) || amountToBuy <= 0 || amountToBuy < score) {
     alert('Введите корректное количество монет.');
     return;
   }
