@@ -19,23 +19,39 @@ h2 {
 font-family: Arial;
 color: white;
 }
+h3 {
+margin-top: 3px; /* 100px Старый параметр */
+color: white;
+font-family: Arial;
+}
 .sell {
 background-image: url("https://i.postimg.cc/MGPbCDyV/204-CB983-DB1-B-40-E0-8-D22-360-CA8905-B32.jpg");
 float: left;
 border: none;
 box-shadow: none;
+border-radius: 15px;
 }
 .buy {
 background-image: url("https://i.postimg.cc/MGPbCDyV/204-CB983-DB1-B-40-E0-8-D22-360-CA8905-B32.jpg");
 float: right;
 border: none;
 box-shadow: none;
+border-radius: 15px;
 }
 button {
-width: 250px;
-height: 250px;
+width: 200px;
+height: 100px;
+} 
+.roundcorner {
+border-radius: 15px; /* Adjust the value for desired roundness */
+overflow: hidden; /* Hide any content that extends beyond the rounded corners */
+position: relative; /* Относительное позиционирование */
+float: left; /* Выравнивание по левому краю с обтеканием */
+margin-right: 20px; /* Отступ справа */
+display: flex;
+justify-content: space-around;
+}  
+.sell img, .buy img { /* Apply to both images */
+border-radius: 15px; /* Match the border-radius of the container */
 }
-.container-buttons {
-    display: flex;
-    justify-content: space-around;
-  }
+  
